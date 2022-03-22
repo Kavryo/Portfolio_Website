@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Component Library</title>
+    <title>Portfolio</title>
     <!-- CSS way 1 : Style tag
     <style>
         body
@@ -18,121 +18,40 @@
 </head>
 
 <body>
-    <h1>Kavya's Component Library</h1>
-    <!-- CSS way 2 : Style tag 
-    <h1 style="color: red;">Kavya's Component Library</h1> -->
-    <p>This is my potfolio website which will contain all my projects</p>
-
-    <hr>
-
-    <h2>@Typography</h2>
-    <h1>This is the biggest heading</h1>
-    <h2>This is the second biggest heading</h2>
-    <p>This is normal text</p>
-    <small> Relatively smaller text</small>
-
-    <hr>
-
-    <h2>@Container</h2>
-    <h3>Fluid Container</h3>
-    <div class="container container-fluid">This is a fluid container and it will go till end of the page.</div>
-
-
-    <h3>Centered Container</h3>
-    <div class="container container-center">This is a Centered container and it will go till a specified width.</div>
-
-    <hr>
-
-    <h2>@Links</h2>
-
-    <a class="link link-primary" href="/">Primary Link</a>
-    <a class="link link-secondary" href="/">Secondary Link</a>
-    <!--inline block or elements won't start from next line even if added in next line eg <a></a> and <small></small> and outline blocks will start in next line even if kept together eg <h1></h1> -->
-
-    <hr>
-    <!--<div>
-        Here's my list
-        <div>1. Item one</div>
-        <div>2. Item one</div>
-    </div> (wrong way to do it)-->
-    <h2>@Lists</h2>
-
-    <h3>Undordered List</h3>
-    <p>This list will not have bullets</p>
-
-    <ul class="list-non-bullet">
-        <li>Item one</li>
-        <li>Item two</li>
-    </ul>
-
-    <h3>Unordered Inline List</h3>
-
-    <ul class="list-non-bullet">
-        <li class="list-item-inline">Inline item one</li>
-        <li class="list-item-inline">Inline item two</li>
-    </ul>
-
-    <h3>Reverse Ordered List</h3>
-
-    <ol reversed>
-        <li>Milks</li>
-        <li>Eggs</li>
-        <li>Jam</li>
-        <li>Bread</li>
-    </ol>
-
-    <hr>
-
-    <h2>@Nav</h2>
-
-    <nav>
-        <div>IAmBrand</div>
-        <ul>
-            <li>
-                <a href="/">Home</a>
+    <nav class="navigation container">
+        <div class="nav-brand">Kavz</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link link-active" href="/">Home</a>
             </li>
-            <li>
-                <a href="/">Projects</a>
+            <li class="list-item-inline">
+                <a class="link" href="/">Projects</a>
             </li>
-            <li>
-                <a href="/">Blogs</a>
+            <li class="list-item-inline">
+                <a class="link" href="/">Blogs</a>
             </li>
         </ul>
     </nav>
 
-    <hr>
-
-    <h2>@Header</h2>
-
-    <header>
-        <img src="images/hero.svg" />
-        <h1>Heading inside Hero</h1>
+    <header class="hero">
+        <img class="hero-image" src="images/hero.svg" />
+        <h1 class="hero-heading">Kavz the <span class="heading-inverted">Web Developer</span></h1>
     </header>
 
-    <hr>
-    <h2>@Sections</h2>
-    <section>
-        <h3>White Section</h3>
-        <p>This will have white bg.</p>
+    <section class="section lb">
+        <div class="container container-center">
+            <h1>Technologies</h1>
+            <p>I am familiar with HTML5, CSS3, Git, JavaScript, NodeJS, ReactJS and Web Hosting.</p>
+        </div>
     </section>
 
-    <section>
-        <h3>Off White Section</h3>
-        <p>This will have off white bg.</p>
+    <section class="section lb">
+        <div class="container container-center">
+            <h1>Technologies</h1>
+            <p>I am familiar with HTML5, CSS3, Git, JavaScript, NodeJS, ReactJS and Web Hosting.</p>
+        </div>
     </section>
-
-    <hr>
-
-    <h2>@Footer</h2>
-
-    <footer>
-        <div>Some small heading inside footter</div>
-        <ul>
-            <li>Social one</li>
-            <li>Social two</li>
-        </ul>
-    </footer>
-
+    
 
 </body>
 

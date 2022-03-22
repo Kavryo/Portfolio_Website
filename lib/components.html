@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Component Library</title>
+    <!-- CSS way 1 : Style tag
+    <style>
+        body
+        {
+            color: red;
+        }
+    </style> -->
+    <!-- Third way is external link -->
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <h1>Kavya's Component Library</h1>
+    <!-- CSS way 2 : Style tag 
+    <h1 style="color: red;">Kavya's Component Library</h1> -->
+    <p>This is my potfolio website which will contain all my projects</p>
+
+    <hr>
+
+    <h2>@Typography</h2>
+    <h1>This is the biggest heading</h1>
+    <h2>This is the second biggest heading</h2>
+    <p>This is normal text</p>
+    <small> Relatively smaller text</small>
+
+    <hr>
+
+    <h2>@Container</h2>
+    <h3>Fluid Container</h3>
+    <div class="container container-fluid">This is a fluid container and it will go till end of the page.</div>
+
+
+    <h3>Centered Container</h3>
+    <div class="container container-center">This is a Centered container and it will go till a specified width.</div>
+
+    <hr>
+
+    <h2>@Links</h2>
+
+    <a class="link link-primary" href="/">Primary Link</a>
+    <a class="link link-secondary" href="/">Secondary Link</a>
+    <!--inline block or elements won't start from next line even if added in next line eg <a></a> and <small></small> and outline blocks will start in next line even if kept together eg <h1></h1> -->
+
+    <hr>
+    <!--<div>
+        Here's my list
+        <div>1. Item one</div>
+        <div>2. Item one</div>
+    </div> (wrong way to do it)-->
+    <h2>@Lists</h2>
+
+    <h3>Undordered List</h3>
+    <p>This list will not have bullets</p>
+
+    <ul class="list-non-bullet">
+        <li>Item one</li>
+        <li>Item two</li>
+    </ul>
+
+    <h3>Unordered Inline List</h3>
+
+    <ul class="list-non-bullet">
+        <li class="list-item-inline">Inline item one</li>
+        <li class="list-item-inline">Inline item two</li>
+    </ul>
+
+    <h3>Reverse Ordered List</h3>
+
+    <ol reversed>
+        <li>Milks</li>
+        <li>Eggs</li>
+        <li>Jam</li>
+        <li>Bread</li>
+    </ol>
+
+    <hr>
+
+    <h2>@Nav</h2>
+
+    <nav class="navigation container">
+        <div class="nav-brand">IAmBrand</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link link-active" href="/">Home</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/">Projects</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/">Blogs</a>
+            </li>
+        </ul>
+    </nav>
+
+    <hr>
+
+    <h2>@Header</h2>
+
+    <header class="hero">
+        <img class="hero-image" src="images/hero.svg" />
+        <h1 class="hero-heading">Heading inside <span class="heading-inverted">Hero</span></h1>
+    </header>
+
+    <hr>
+    <h2>@Sections</h2>
+    <section class="section">
+        <div class="container container-center">
+            <h1>White Section</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod nostrum ex, eos ipsa officia enim veniam quasi provident? Eos aut est ipsa nobis incidunt at explicabo sit, ex eum nesciunt!</p>
+        </div>
+
+    </section>
+
+    <section class="section lb">
+        <div class="container container-center">
+            <h1>Ligh Blue Section</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto officiis obcaecati praesentium natus, odio illo ipsa dolorum rem consequatur aliquid id ea aspernatur modi? Labore odit officia quam fugiat iure.</p>
+        </div>
+
+    </section>
+
+    <hr>
+
+    <h2>@Footer</h2>
+
+    <footer class="footer">
+        <div class="footer-header">Some small heading inside footer</div>
+        <ul class="social-link list-non-bullet">
+            <li class="list-item-inline">
+                <a class="link" href="/">Social one</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/">Social two</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/">Social three</a>
+            </li>
+        </ul>
+    </footer>
+
+
+</body>
+
+</html>
