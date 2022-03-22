@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+
+:root{
+    --primary-color: #f97316;
+    --hero-heading-color: #ea580c;
+}
+
+body {
+    font-family: 'Ubuntu',
+    sans-serif;
+}
+
+hr {
+    margin: 2rem 0rem;
+}
+
+/** Container **/
+
+.container {
+    padding: 0rem 1rem;
+}
+
+.container-center {
+    max-width: 600px;
+    margin: auto; 
+}
+
+/** Links **/
+.link {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.link-primary {
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
+}
+
+.link-secondary {
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+}
+
+/** look in bem naming convention for CSS **/
+
+/** Lists **/
+
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+/** Nav **/
+
+.navigation {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.navigation .nav-brand {
+    font-weight: bold;
+}
+
+.navigation .nav-pills {
+    text-align: right;
+}
+
+.navigation .link {
+    color: white;
+}
+
+.navigation .link-active {
+    font-weight: bold;
+}
+
+/** Header **/
+
+.hero {
+    padding: 2rem;
+}
+
+.hero .hero-image {
+    max-width: 400px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-heading {
+    color: var(--hero-heading-color);
+    padding-top: 1rem;
+}
+
+.hero .hero-heading .heading-inverted
+{
+    color: var(--primary-color);
+}
+
+/** Sections **/
+
+
+
+
+
