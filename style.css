@@ -1,13 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
 
-:root{
+:root {
     --primary-color: #f97316;
     --hero-heading-color: #ea580c;
+    --section-bg-color: #daf4fc;
+    --bluish: #36bddf;
 }
 
 body {
     font-family: 'Ubuntu',
-    sans-serif;
+        sans-serif;
 }
 
 hr {
@@ -22,7 +24,7 @@ hr {
 
 .container-center {
     max-width: 600px;
-    margin: auto; 
+    margin: auto;
 }
 
 /** Links **/
@@ -94,18 +96,44 @@ hr {
 }
 
 .hero .hero-heading {
-    color: var(--hero-heading-color);
+    color: var(--bluish);
     padding-top: 1rem;
+    text-align: center;
 }
 
-.hero .hero-heading .heading-inverted
-{
+.hero .hero-heading .heading-inverted {
     color: var(--primary-color);
 }
 
 /** Sections **/
 
+.section {
+    padding: 2rem;
+}
 
+.section h1 {
+    text-align: center;
+}
 
+.lb {
+    background-color: var(--section-bg-color);
+}
 
+/** Footer **/
+
+footer {
+    background-color: var(--primary-color);
+    padding: 2rem 0rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+}
+
+.footer .link {
+    color: white;
+}
+
+.footer ul {
+    padding-inline-start: 0rem;
+}
 
