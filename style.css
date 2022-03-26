@@ -16,15 +16,25 @@ hr {
     margin: 2rem 0rem;
 }
 
+div {
+    display: block;
+}
+
+p {
+    display: block;
+    padding-bottom: 0.5rem;
+}
+
 /** Container **/
 
 .container {
-    padding: 0rem 1rem;
+    padding: 1rem 1rem;
 }
 
 .container-center {
-    max-width: 600px;
+    max-width: 700px;
     margin: auto;
+    width: 600px;
 }
 
 /** Links **/
@@ -109,6 +119,15 @@ hr {
 
 .section {
     padding: 2rem;
+    margin: auto;
+    margin-bottom: 2rem;
+    border-radius: 1rem;
+    max-width: 700px;
+    align-self: center;
+}
+
+.projects_page .section {
+    padding-top: 0rem;
 }
 
 .section h1 {
@@ -117,6 +136,10 @@ hr {
 
 .lb {
     background-color: var(--section-bg-color);
+}
+
+.projects_page .section h1 {
+    text-align: left;
 }
 
 /** Footer **/
