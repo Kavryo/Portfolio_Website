@@ -130,6 +130,18 @@ p {
     padding-top: 0rem;
 }
 
+.projects_page .section h1 {
+    text-align: left;
+}
+
+.blogs_page .section {
+    padding-top: 0rem;
+}
+
+.blogs_page .section h1 {
+    text-align: left;
+}
+
 .section h1 {
     text-align: center;
 }
@@ -138,9 +150,25 @@ p {
     background-color: var(--section-bg-color);
 }
 
-.projects_page .section h1 {
-    text-align: left;
+.blogs {
+    margin-top: 1rem;
 }
+
+.blog_heading header {
+    padding: 0rem 0rem;
+    margin-top: 0rem;
+}
+
+.blog_heading h1 {
+    padding: 0rem 0rem;
+    margin-top: 0rem;
+}
+
+.blogs p {
+    text-align: justify;
+}
+
+
 
 /** Footer **/
 
