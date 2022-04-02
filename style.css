@@ -10,6 +10,7 @@
 body {
     font-family: 'Ubuntu',
         sans-serif;
+    margin: 0px;
 }
 
 hr {
@@ -97,6 +98,7 @@ p {
 
 .hero {
     padding: 2rem;
+    padding-bottom: 0.5rem;
 }
 
 .hero .hero-image {
@@ -107,7 +109,7 @@ p {
 
 .hero .hero-heading {
     color: var(--bluish);
-    padding-top: 1rem;
+    padding-top: 0.9rem;
     text-align: center;
 }
 
